@@ -12,8 +12,8 @@ namespace Calculos
         {
             Console.WriteLine("Aplicação Cálculos");
 
-            Console.WriteLine($"4 + 2 ={Aritmetica.Somar(4,2)}");
-            Console.WriteLine($"4 - 2 ={Aritmetica.Subtrair(4, 2)}");
+            Console.WriteLine($"4 + 2 = {Aritmetica.Somar(4, 2)}");
+            Console.WriteLine($"4 - 2 = {Aritmetica.Subtrair(4, 2)}");
 
             double t1 = conversoes.ConverterTemperatura(conversoes.ConversaoTemperatura.CelsiuisFarenheit, 36);
             double t2 = conversoes.ConverterTemperatura(conversoes.ConversaoTemperatura.FarenheitCelsius, 100);
